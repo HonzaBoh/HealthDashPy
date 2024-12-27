@@ -1,0 +1,23 @@
+[project]
+name = "hospital_admissions_dashboard"
+version = "0.1.0"
+description = "A Plotly Dash hospital admissions dashboard."
+authors = [
+    { name = "Jan Boháč", email = "bohac@infis.cz" }
+]
+requires-python = ">=3.7"
+dependencies = [
+    "dash",
+    "plotly",
+    "pandas"
+]
+
+[project.scripts]
+dashboard = "health.run:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
