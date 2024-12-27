@@ -24,5 +24,5 @@ PROJECT_ROOT
         └── run.py
 ```
 ## Project Setup
-To run the project, run command 'pip install -e .' and then simply call 'dashboard' command tu run the application. Alternatively, you can setup the project directly, keep in min all dependancies, cal 'pip install -r requirements.txt' to install them.
+To run the project, run command 'pip install -e .' and then simply call 'dashboard' command to run the application. Alternatively, you can setup the project directly, keep in mind all dependancies, call 'pip install -r requirements.txt' to install them.
 All commands listed herein are supposed to be called in PROJECT_ROOT (named HeatlthDashPy, if you cloned this repo)
