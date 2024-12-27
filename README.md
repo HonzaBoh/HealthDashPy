@@ -14,14 +14,15 @@ PROJECT_ROOT
 ├── data
 │   └── hospital_data.csv
 └── src
-    ├── __init__.py         (optional, can be empty)
-    ├── data.py
-    ├── theme.py
-    ├── layout.py
-    ├── callbacks.py
-    ├── app.py
-    └── run.py
+    |── health
+        ├── __init__.py (empty, used for pckg)
+        ├── data.py
+        ├── theme.py
+        ├── layout.py
+        ├── callbacks.py
+        ├── app.py
+        └── run.py
 ```
 ## Project Setup
 To run the project, run command 'pip install -e .' and then simply call 'dashboard' command tu run the application. Alternatively, you can setup the project directly, keep in min all dependancies, cal 'pip install -r requirements.txt' to install them.
-All commands listed herein are supposed to be called in PROJECT_ROOT (named hospital_dashboard, if you cloned this repo)
+All commands listed herein are supposed to be called in PROJECT_ROOT (named HeatlthDashPy, if you cloned this repo)

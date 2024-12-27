@@ -1,9 +1,9 @@
 [project]
 name = "hospital_admissions_dashboard"
-version = "0.1.0"
+version = "0.2.0"
 description = "A Plotly Dash hospital admissions dashboard."
 authors = [
-    { name = "Jan Boháč", email = "bohac@infis.cz" }
+    { name = "Jan Boháč", email = "honza.boh00@gmail.com" }
 ]
 requires-python = ">=3.7"
 dependencies = [
