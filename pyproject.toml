@@ -12,6 +12,7 @@ dependencies = [
     "pandas"
 ]
 
+#run with dashboard command after init
 [project.scripts]
 dashboard = "health.run:main"
 
