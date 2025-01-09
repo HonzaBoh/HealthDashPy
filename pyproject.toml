@@ -6,6 +6,7 @@ authors = [
     { name = "Jan Boháč", email = "honza.boh00@gmail.com" }
 ]
 requires-python = ">=3.7"
+#also for requirements.txt
 dependencies = [
     "dash",
     "plotly",

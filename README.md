@@ -2,7 +2,7 @@
 
 An interactive dashboard built with [Dash](https://dash.plotly.com/) and [Plotly](https://plotly.com/) to explore and visualize hospital admissions data. This dashboard allows you to filter patients by medical condition, gender, age range, and date range, and displays charts (pie, bar, treemap, heatmap, box plot) and summary statistics for quick insights.
 
-Dataset is available as [Healthcare dataset](https://www.kaggle.com/datasets/prasad22/healthcare-dataset), it is an educational dataset for which I am thankful to build this simple tool for.
+Dataset is available as [Healthcare dataset](https://www.kaggle.com/datasets/prasad22/healthcare-dataset), it is an educational dataset for which I am thankful to build this simple showcase tool for.
 ---
 
 ## Project Structure
@@ -25,6 +25,7 @@ HealthDashPy (project root)
         └── run.py
 ```
 ## Project Setup
+Project requires: python, pip
 To install everything required, use
 ```text
 pip install -e .
